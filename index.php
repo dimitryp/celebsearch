@@ -12,7 +12,7 @@
     // jQuery document ready function
     $(function() {
     	$(".myAutoComplete").autocomplete({
-    		source: "http://35.189.14.162/mysearch.php",
+    		source: "http://35.189.17.68/mysearch.php",
     		minLength: 2,
         select: function(event, ui) {
           // Output selected name
