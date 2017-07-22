@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+  header("Access-Control-Allow-Origin: *");
   define('DB_SERVER', '35.189.8.56');
   define('DB_NAME', 'dp2');
 
@@ -18,7 +18,7 @@ header("Access-Control-Allow-Origin: *");
   	    $stmt->execute(array('term' => '%'.$_GET['term'].'%'));
 
   	    while($row = $stmt->fetch()) {
-  	        $return_arr[] =  $row['name'];
+  	        $return_arr[] =  $row;
   	    }
   	} catch(PDOException $e) {
   	    echo 'ERROR: ' . $e->getMessage();
