@@ -134,7 +134,7 @@
         minLength: 2,
         delay: 350,
         autoFocus: true,
-    		source: "http://35.190.62.33/celeb/mysearch.php",
+    		source: "http://lb2.celeb.dimitryp.com/celeb/mysearch.php",
         select: function(event, ui) {
           var item = ui.item;
 
